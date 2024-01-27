@@ -1,0 +1,24 @@
+{
+    "editor.fontFamily": "Hack Nerd Font, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.lineHeight": 28,
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+    "breadcrumbs.enabled": false,
+    "oneDarkPro.italic": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.customGlyphs": false,
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.integrated.smoothScrolling": true,
+    "explorer.compactFolders": false,
+    "security.allowedUNCHosts": [
+        "wsl$"
+    ],
+    "workbench.startupEditor": "none",
+    "terminal.integrated.gpuAcceleration": "off"
+}

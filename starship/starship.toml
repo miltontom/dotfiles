@@ -1,0 +1,81 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$git_metrics\
+$fill\
+$cmd_duration \
+$time\
+$os\
+$line_break\
+$character"""
+
+add_newline = false
+
+[fill]
+symbol = " "
+
+[directory]
+style = "bold cyan"
+read_only = " "
+truncation_length = 5
+truncate_to_repo = true
+
+[username]
+disabled = false
+show_always = true
+style_user = "blue"
+style_root = "red"
+format = "[$user]($style) in "
+
+[hostname]
+disabled = false
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[git_branch]
+symbol = " "
+format = "on [$symbol](purple)[$branch](bold purple) "
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+style = "cyan"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bright-black"
+
+[git_commit]
+disabled = false
+style = 'yellow'
+
+[git_metrics]
+disabled = false
+
+[cmd_duration]
+format = "[$duration]($style)"
+style = "bold yellow"
+
+[time]
+disabled = false
+# time_format = " %a %d   %I:%M %p" # %l space padded %I 0 padded
+# time_format = "󰃰 %a %d, %I:%M %p" # %l space padded %I 0 padded
+time_format = "%l:%M %p" # %l space padded %I 0 padded
+style = "white"
+format = "[$time]($style) "
+
+[os]
+disabled = false
+format = "[$symbol]($style)"
+style = "white"
+
+[os.symbols]
+Ubuntu = " "
+Windows = " "
+

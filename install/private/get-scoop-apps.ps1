@@ -1,0 +1,1 @@
+scoop list | ForEach-Object { $_.Name } > "$($PSScriptRoot)\apps"

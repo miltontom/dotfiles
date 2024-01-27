@@ -1,0 +1,8 @@
+set icons true
+set drawbox true
+set preview true
+set hidden true
+set ignorecase true
+set scrolloff 5
+
+map D delete

@@ -1,0 +1,24 @@
+[user]
+	name = Milton Tom
+	email = miltontom16@gmail.com
+	
+[color]
+	ui = auto
+
+[core]
+	editor = nvim
+
+[init]
+    defaultBranch = main
+
+#[alias]
+#    a = add
+#    d = diff
+#    br = branch
+#    co = checkout
+#    ci = commit -m
+#    cp = cherry-pick
+#    lg = log --oneline
+#    rb = rebase
+#    st = status
+#    rlg = log --pretty='%C(yellow)%h %C(cyan)%ar %Creset%s'
