@@ -1,12 +1,12 @@
 [user]
-	name = Milton Tom
-	email = miltontom16@gmail.com
-	
+    name = Milton Tom
+    email = miltontom16@gmail.com
+
 [color]
-	ui = auto
+    ui = auto
 
 [core]
-	editor = nvim
+    editor = nvim
 
 [init]
     defaultBranch = main
